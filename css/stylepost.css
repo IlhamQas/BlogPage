@@ -1,0 +1,56 @@
+@import "style.css";
+@import "sty.css";
+ .education , .experience , .skills , .contact , .information{
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    font-family: comic MS;
+    
+}
+
+
+
+.content-section , .education ,.experience , .skills , .contact , .information{
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Comic Sans MS;
+    
+}
+.info , .contact1{
+    display: flex;
+    
+}
+figcaption{
+    font-size: 5px;
+}
+.info{
+    align-items: center;
+    flex-direction: column;  
+}
+.content-section h2 , .education h2 , .experience h2 , .skills h2 , .contact h2 , .information h2{
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-family:MV Boli;
+}
+
+#myphoto {
+    border-radius: 50%;
+   width: 180px;
+   height: 180px;
+   display: flex;
+    
+}
+.name{
+    font-size: 25px;
+}
+
+
